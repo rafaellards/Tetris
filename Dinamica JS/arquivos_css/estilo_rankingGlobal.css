@@ -1,0 +1,93 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6b6b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.ranking {
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.user-info {
+    margin-bottom: 20px;
+}
+
+.user-position {
+    font-size: 34px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.top-scores {
+    text-align: left;
+}
+
+h2 {
+    color: #333;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.usu_rank {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.usu_detalhes {
+    display: inline-block;
+}
+
+.usu_nome {
+    font-weight: bold;
+}
+
+.usu_pontuacao {
+    color: #28a745;
+    margin-left: 10px;
+}
+
+.usu_nivel {
+    color: #ff0000;
+    margin-left: 10px;
+}
+
+.usu_duracao {
+    color: #993399;
+    margin-left: 10px;
+}
+
+button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #306844;
+}

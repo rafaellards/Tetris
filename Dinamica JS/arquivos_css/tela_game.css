@@ -1,0 +1,233 @@
+/* tela_game.css */
+
+body {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #ff6b6b;
+    font-size: 36px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    width: 95%;
+}
+
+.ranking-container {
+    width: 25%;
+    height: 60vh;
+    border: 2px solid #ff6b6b;
+    background-color: #fff;
+    overflow-y: auto;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-left: 330px;
+}
+
+.game-container > .stacked-page {
+    display: none;
+    flex: 1;
+}
+
+.game-container > .stacked-page.active {
+    display: block;
+}
+
+.game-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.game-area {
+    width: 700px;
+    height: 500px;
+    border: 2px solid #ff6b6b;
+    background-color: #e1e6e1; 
+    margin-top: 20px;
+}
+
+.game-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6b6b;
+    margin-right: 10px;
+    font-size: 18px; 
+    padding: 5px 10px; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #306844;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    margin: 0 20px;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#tetris {
+    width: 360px;
+    border: 1px solid black;
+    padding: 20px;
+}
+#canvas {
+    width: 200px;
+    height: 400px;
+    background-color: #000;
+    position: relative;
+    color: #fff;
+}
+#canvas h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 200px;
+}
+.piece {
+    border: 1px solid white;
+    position: absolute;
+}
+  
+#start{
+    animation: blink .7s steps(2, start) infinite;
+    background: #E1FF5F;
+    border-radius: 2px;
+    color: #202020;
+    cursor: pointer;
+    font-size: 28px;
+}
+  
+@keyframes blink {
+    to {
+      outline: #E1FF5F solid 1px;
+    }
+}
+  
+.red{
+    color: #f00000;
+}
+  
+.square {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    border: 1px solid white;
+}
+.type0 {
+    background-color: #a000f0;
+}
+.type1 {
+    background-color: #00f0f0;
+}
+.type2 {
+    background-color: #f0a000;
+}
+.type3 {
+    background-color: #0000f0;
+}
+.type4 {
+    background-color: #00f000;
+}
+.type5 {
+    background-color: #f00000;
+}
+.type6 {
+    background-color: #f0f000;
+}
+#next_shape {
+    position: relative;
+    background-color: #000;
+    border: 1px solid white;
+    width: 110px;
+    height: 110px;
+} 
+#info {
+    background-color: #000;
+    color: white;
+    float: right;
+    width: 110px;
+    height: 380px;
+    padding: 10px;
+}
+p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

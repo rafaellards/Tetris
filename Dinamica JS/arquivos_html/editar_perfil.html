@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../arquivos_css/editar_perfil.css">
+    <title>Edição do Perfil</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Edite suas informações:</h1>
+        <p>Preencha o campo a seguir e clique em "Salvar" para mudar seu dado.</p>
+        
+        <form>
+            <label for="TelNew">Novo Telefone:</label>
+            <input type="number" id="TelNew" name="TelNew" required>
+            <button type="submit">Salvar</button>
+        </form>
+        <br>
+        <form>
+            
+            <label for="emailNew">Novo Email:</label>
+            <input type="email" id="emailNew" name="emailNew" required>
+            <button type="submit">Salvar</button>
+        <br>
+        </form>
+        <br>
+        <form>
+            <label for="nomeCompletoNew">Novo Nome Completo:</label>
+            <input type="text" id="nomeCompletoNew" name="nomeCompletoNew" required>
+            <button type="submit">Salvar</button>
+        </form>
+        <br>
+        <p>Por questões de segurança, preencha sua senha atual além de confirmar a senha nova duas vezes.</p>
+        <form>
+            <label for="senhaOld">Senha Antiga:</label>
+            <input type="password" id="senhaOld" name="senhaOld" required>
+            <label for="senhaNew">Senha Nova:</label>
+            <input type="password" id="senhaNew" name="senhaNew" required>
+            <label for="senhaNew2">Confirme a Senha Nova:</label>
+            <input type="password" id="senhaNew2" name="senhaNew2" required>
+            
+            <button type="submit">Salvar</button>
+            
+        </form>
+            <br><br>		
+            <h3> Volte para o jogo clicando no botão abaixo. </h3>
+            <form action="tela_game.html" method="get"> 
+                <button type="submit">Voltar ao Jogo</button> 
+            </form>
+    </div>
+</body>
+</html>

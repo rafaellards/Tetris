@@ -1,0 +1,60 @@
+
+body {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6b6b;
+    margin-right: 10px;
+    font-size: 18px; 
+    padding: 5px 10px; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#login_div {
+    background-color: #f7f7f7;
+    border-radius: 12px;
+    border-color: #ff6b6b;
+    border-style: solid;
+    padding: 5%;
+    padding-top: 2%;
+}
+#login_div h3{
+    font-size: xx-large;
+}
+.inputs{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    border-radius: 12px;
+    border:  2px solid #ff6b6b;
+    width: 100%;
+    height: 12%;
+    margin-top: 5%;
+}
+.inputs:hover{
+    background-color: #fffcfc;
+    border-color: #ff3b3b;
+}
+#Enviar {
+    padding: 10px 20px;
+    background-color: #ff3b3b;
+    padding: 4%;
+    font-size: larger;
+    color: #fff;
+    border: none;
+    border-radius: 12%;
+    cursor: pointer;
+}
+#Enviar:hover{
+    background-color: #f91717;
+}
