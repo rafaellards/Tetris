@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../arquivos_css/tela_game.css">
+    <title>Jogo Tetris</title>
+</head>
+<body>
+    <h1>Jogo Tetris</h1>
+    <br>
+    <div class="link-container">
+        <div class="button-container">
+            <a href="Tela_Ranking_Global.html" class="button">Ver Global Ranking</a>
+            <a href="editar_perfil.html" class="button">Editar Perfil</a>
+            <a href="login.html" class="button right">Sair</a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="main-container">
+
+        <div class="game-container">
+            <br>
+            <div class="game-info-container">
+                <div class="info-container">
+                    <p>
+                        Tempo da Partida: <span id="tempo-partida">00:00</span>
+                    </p>
+                    <p>
+                        Pontuação: <span id="pontuacao">0</span>
+                    </p>
+                    <p>
+                        Linhas Eliminadas: <span id="linhas-eliminadas">0</span>
+                    </p>
+                    <p>
+                        Nível de Dificuldade: <span id="nivel-dificuldade">1</span>
+                    </p>
+                </div>
+                <br>
+                <button onclick="iniciarJogo()" class="button">Iniciar Jogo</button>
+            </div>
+            <div class="game-content">
+                <div class="game-area">
+                    <h1>Jogo</h1>
+                    <!-- Conteúdo da área do jogo vai aqui -->
+                </div>
+            </div>
+        </div>
+        <div class="ranking-container">
+            <h1>Ranking</h1>
+            <p>Rank | jogador   | pontuação | nível | duração</p>
+            <p> 1   | exemplo_1 |    200    |   3   |  2:00</p>
+            <p> 2   | exemplo_2 |    150    |   2   |  1:30</p>
+            <p> 3   | exemplo_3 |    100    |   1   |  1:00</p>
+            <!-- Conteúdo da lista de ranking vai aqui -->
+        </div>
+    </div>
+</body>
+</html>

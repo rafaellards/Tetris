@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../arquivos_css/cadastro.css">
+    <title>Tela de Cadastro</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Cadastro</h1>
+        <form>
+            <label for="nomeCompleto">Nome Completo:</label>
+            <input type="text" id="nomeCompleto" name="nomeCompleto" required>
+
+            <label for="CPF">CPF:</label>
+            <input type="text" id="CPF" name="CPF" required> 
+
+            <label for="Tel">Telefone:</label>
+            <input type="text" id="Tel" name="Tel" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="dataNascimento">Data de Nascimento:</label>
+            <input type="date" id="dataNascimento" name="dataNascimento" required>
+            
+            <label for="usuario">Nome de Usuário:</label>
+            <input type="text" id="usuario" name="usuario" required>
+            
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <label for="senha2">Confirme a Senha:</label>
+            <input type="password" id="senha2" name="senha2" required>
+            
+             <button type="submit">Finalizar Cadastro</button>
+            <br><br>		
+
+        </form>
+            <h3> Volte para a tela de login clicando no botão abaixo. </h3>
+            <form action="login.html" method="get"> 
+                <button type="submit">Voltar à Tela de Login</button> 
+            </form>
+    </div>
+</body>
+</html>
+
